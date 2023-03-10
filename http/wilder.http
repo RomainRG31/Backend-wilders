@@ -1,0 +1,27 @@
+POST http://localhost:5000/api/wilder
+Content-Type: application/json
+
+{
+    "name": "Jane Doe"
+}
+
+###
+
+GET http://localhost:5000/api/wilder
+
+###
+
+PUT http://localhost:5000/api/wilder/3
+Content-Type: application/json
+
+{
+    "name": "John Smith"
+}
+
+###
+
+DELETE http://localhost:5000/api/wilder/6
+
+###
+
+POST http://localhost:5000/api/wilder/1/skill/3/add
